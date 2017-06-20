@@ -21,7 +21,7 @@ Partial Class formulario
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(formulario))
-        Dim SplashScreenManager1 As DevExpress.XtraSplashScreen.SplashScreenManager = New DevExpress.XtraSplashScreen.SplashScreenManager(Me, Nothing, True, True)
+        Dim SplashScreenManager1 As DevExpress.XtraSplashScreen.SplashScreenManager = New DevExpress.XtraSplashScreen.SplashScreenManager(Me, GetType(Global.Prueba.SplashScreen1), True, True)
         Me.NavBarControl1 = New DevExpress.XtraNavBar.NavBarControl()
         Me.NavBarGroup1 = New DevExpress.XtraNavBar.NavBarGroup()
         Me.NB_Bitacora = New DevExpress.XtraNavBar.NavBarItem()
@@ -29,6 +29,7 @@ Partial Class formulario
         Me.XtraTabbedMdiManager1 = New DevExpress.XtraTabbedMdi.XtraTabbedMdiManager(Me.components)
         Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
         Me.DefaultLookAndFeel1 = New DevExpress.LookAndFeel.DefaultLookAndFeel(Me.components)
+        Me.NB_Reporte = New DevExpress.XtraNavBar.NavBarItem()
         CType(Me.NavBarControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.XtraTabbedMdiManager1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -38,7 +39,7 @@ Partial Class formulario
         Me.NavBarControl1.ActiveGroup = Me.NavBarGroup1
         Me.NavBarControl1.Dock = System.Windows.Forms.DockStyle.Left
         Me.NavBarControl1.Groups.AddRange(New DevExpress.XtraNavBar.NavBarGroup() {Me.NavBarGroup1})
-        Me.NavBarControl1.Items.AddRange(New DevExpress.XtraNavBar.NavBarItem() {Me.NB_Inicio, Me.NB_Bitacora})
+        Me.NavBarControl1.Items.AddRange(New DevExpress.XtraNavBar.NavBarItem() {Me.NB_Inicio, Me.NB_Bitacora, Me.NB_Reporte})
         Me.NavBarControl1.Location = New System.Drawing.Point(0, 0)
         Me.NavBarControl1.Name = "NavBarControl1"
         Me.NavBarControl1.OptionsNavPane.ExpandedWidth = 140
@@ -51,7 +52,7 @@ Partial Class formulario
         '
         Me.NavBarGroup1.Caption = "NavBarGroup1"
         Me.NavBarGroup1.Expanded = True
-        Me.NavBarGroup1.ItemLinks.AddRange(New DevExpress.XtraNavBar.NavBarItemLink() {New DevExpress.XtraNavBar.NavBarItemLink(Me.NB_Bitacora)})
+        Me.NavBarGroup1.ItemLinks.AddRange(New DevExpress.XtraNavBar.NavBarItemLink() {New DevExpress.XtraNavBar.NavBarItemLink(Me.NB_Bitacora), New DevExpress.XtraNavBar.NavBarItemLink(Me.NB_Reporte)})
         Me.NavBarGroup1.Name = "NavBarGroup1"
         '
         'NB_Bitacora
@@ -78,6 +79,12 @@ Partial Class formulario
         Me.StatusStrip1.TabIndex = 3
         Me.StatusStrip1.Text = "StatusStrip1"
         '
+        'NB_Reporte
+        '
+        Me.NB_Reporte.Caption = "Reporte"
+        Me.NB_Reporte.Name = "NB_Reporte"
+        Me.NB_Reporte.SmallImage = CType(resources.GetObject("NB_Reporte.SmallImage"), System.Drawing.Image)
+        '
         'formulario
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -101,4 +108,5 @@ Partial Class formulario
     Friend WithEvents XtraTabbedMdiManager1 As DevExpress.XtraTabbedMdi.XtraTabbedMdiManager
     Friend WithEvents StatusStrip1 As System.Windows.Forms.StatusStrip
     Friend WithEvents DefaultLookAndFeel1 As DevExpress.LookAndFeel.DefaultLookAndFeel
+    Friend WithEvents NB_Reporte As DevExpress.XtraNavBar.NavBarItem
 End Class
