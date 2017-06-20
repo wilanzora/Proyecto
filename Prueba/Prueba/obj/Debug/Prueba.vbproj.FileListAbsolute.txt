@@ -1,0 +1,24 @@
+c:\users\infos-30\documents\visual studio 2013\Projects\Prueba\Prueba\bin\Debug\Prueba.exe.config
+C:\Users\INFOS-30\Documents\Visual Studio 2013\Projects\Prueba\Prueba\bin\Debug\Prueba.exe
+C:\Users\INFOS-30\Documents\Visual Studio 2013\Projects\Prueba\Prueba\bin\Debug\Prueba.pdb
+C:\Users\INFOS-30\Documents\Visual Studio 2013\Projects\Prueba\Prueba\bin\Debug\Prueba.xml
+C:\Users\INFOS-30\Documents\Visual Studio 2013\Projects\Prueba\Prueba\obj\Debug\Prueba.Form1.resources
+C:\Users\INFOS-30\Documents\Visual Studio 2013\Projects\Prueba\Prueba\obj\Debug\Prueba.Resources.resources
+C:\Users\INFOS-30\Documents\Visual Studio 2013\Projects\Prueba\Prueba\obj\Debug\Prueba.vbproj.GenerateResource.Cache
+C:\Users\INFOS-30\Documents\Visual Studio 2013\Projects\Prueba\Prueba\obj\Debug\Prueba.exe.licenses
+C:\Users\INFOS-30\Documents\Visual Studio 2013\Projects\Prueba\Prueba\obj\Debug\Prueba.exe
+C:\Users\INFOS-30\Documents\Visual Studio 2013\Projects\Prueba\Prueba\obj\Debug\Prueba.xml
+C:\Users\INFOS-30\Documents\Visual Studio 2013\Projects\Prueba\Prueba\obj\Debug\Prueba.pdb
+C:\Users\INFOS-30\Source\Repos\Proyecto\Prueba\Prueba\bin\Debug\Prueba.exe.config
+C:\Users\INFOS-30\Source\Repos\Proyecto\Prueba\Prueba\obj\Debug\Prueba.exe
+C:\Users\INFOS-30\Source\Repos\Proyecto\Prueba\Prueba\obj\Debug\Prueba.xml
+C:\Users\INFOS-30\Source\Repos\Proyecto\Prueba\Prueba\obj\Debug\Prueba.pdb
+C:\Users\INFOS-30\Source\Repos\Proyecto\Prueba\Prueba\bin\Debug\Prueba.exe
+C:\Users\INFOS-30\Source\Repos\Proyecto\Prueba\Prueba\bin\Debug\Prueba.pdb
+C:\Users\INFOS-30\Source\Repos\Proyecto\Prueba\Prueba\bin\Debug\Prueba.xml
+C:\Users\INFOS-30\Source\Repos\Proyecto\Prueba\Prueba\obj\Debug\Prueba.formulario.resources
+C:\Users\INFOS-30\Source\Repos\Proyecto\Prueba\Prueba\obj\Debug\Prueba.Resources.resources
+C:\Users\INFOS-30\Source\Repos\Proyecto\Prueba\Prueba\obj\Debug\Prueba.Vistas.resources
+C:\Users\INFOS-30\Source\Repos\Proyecto\Prueba\Prueba\obj\Debug\Prueba.vbproj.GenerateResource.Cache
+C:\Users\INFOS-30\Source\Repos\Proyecto\Prueba\Prueba\obj\Debug\Prueba.exe.licenses
+C:\Users\INFOS-30\Source\Repos\Proyecto\Prueba\Prueba\obj\Debug\Prueba.XtraReport1.resources
