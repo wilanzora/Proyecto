@@ -23,11 +23,11 @@ Partial Class SplashScreen1
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(SplashScreen1))
-        Me.pictureEdit2 = New DevExpress.XtraEditors.PictureEdit
-        Me.pictureEdit1 = New DevExpress.XtraEditors.PictureEdit
-        Me.labelControl2 = New DevExpress.XtraEditors.LabelControl
-        Me.labelControl1 = New DevExpress.XtraEditors.LabelControl
-        Me.marqueeProgressBarControl1 = New DevExpress.XtraEditors.MarqueeProgressBarControl
+        Me.pictureEdit2 = New DevExpress.XtraEditors.PictureEdit()
+        Me.pictureEdit1 = New DevExpress.XtraEditors.PictureEdit()
+        Me.labelControl2 = New DevExpress.XtraEditors.LabelControl()
+        Me.labelControl1 = New DevExpress.XtraEditors.LabelControl()
+        Me.marqueeProgressBarControl1 = New DevExpress.XtraEditors.MarqueeProgressBarControl()
         CType(Me.pictureEdit2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pictureEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.marqueeProgressBarControl1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -86,7 +86,7 @@ Partial Class SplashScreen1
         Me.marqueeProgressBarControl1.Size = New System.Drawing.Size(404, 12)
         Me.marqueeProgressBarControl1.TabIndex = 10
         '
-        'SplashScreen
+        'SplashScreen1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -96,7 +96,7 @@ Partial Class SplashScreen1
         Me.Controls.Add(Me.labelControl2)
         Me.Controls.Add(Me.labelControl1)
         Me.Controls.Add(Me.marqueeProgressBarControl1)
-        Me.Name = "Form1"
+        Me.Name = "SplashScreen1"
         Me.Text = "Form1"
         CType(Me.pictureEdit2.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pictureEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()

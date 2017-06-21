@@ -22,3 +22,4 @@ C:\Users\INFOS-30\Source\Repos\Proyecto\Prueba\Prueba\obj\Debug\Prueba.Vistas.re
 C:\Users\INFOS-30\Source\Repos\Proyecto\Prueba\Prueba\obj\Debug\Prueba.vbproj.GenerateResource.Cache
 C:\Users\INFOS-30\Source\Repos\Proyecto\Prueba\Prueba\obj\Debug\Prueba.exe.licenses
 C:\Users\INFOS-30\Source\Repos\Proyecto\Prueba\Prueba\obj\Debug\Prueba.XtraReport1.resources
+C:\Users\INFOS-30\Source\Repos\Proyecto\Prueba\Prueba\obj\Debug\Prueba.SplashScreen1.resources

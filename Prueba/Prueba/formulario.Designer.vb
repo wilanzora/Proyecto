@@ -20,16 +20,16 @@ Partial Class formulario
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(formulario))
         Dim SplashScreenManager1 As DevExpress.XtraSplashScreen.SplashScreenManager = New DevExpress.XtraSplashScreen.SplashScreenManager(Me, GetType(Global.Prueba.SplashScreen1), True, True)
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(formulario))
         Me.NavBarControl1 = New DevExpress.XtraNavBar.NavBarControl()
         Me.NavBarGroup1 = New DevExpress.XtraNavBar.NavBarGroup()
         Me.NB_Bitacora = New DevExpress.XtraNavBar.NavBarItem()
+        Me.NB_Reporte = New DevExpress.XtraNavBar.NavBarItem()
         Me.NB_Inicio = New DevExpress.XtraNavBar.NavBarItem()
         Me.XtraTabbedMdiManager1 = New DevExpress.XtraTabbedMdi.XtraTabbedMdiManager(Me.components)
         Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
         Me.DefaultLookAndFeel1 = New DevExpress.LookAndFeel.DefaultLookAndFeel(Me.components)
-        Me.NB_Reporte = New DevExpress.XtraNavBar.NavBarItem()
         CType(Me.NavBarControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.XtraTabbedMdiManager1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -50,7 +50,7 @@ Partial Class formulario
         '
         'NavBarGroup1
         '
-        Me.NavBarGroup1.Caption = "NavBarGroup1"
+        Me.NavBarGroup1.Caption = "Prueba"
         Me.NavBarGroup1.Expanded = True
         Me.NavBarGroup1.ItemLinks.AddRange(New DevExpress.XtraNavBar.NavBarItemLink() {New DevExpress.XtraNavBar.NavBarItemLink(Me.NB_Bitacora), New DevExpress.XtraNavBar.NavBarItemLink(Me.NB_Reporte)})
         Me.NavBarGroup1.Name = "NavBarGroup1"
@@ -60,6 +60,12 @@ Partial Class formulario
         Me.NB_Bitacora.Caption = "bitacora"
         Me.NB_Bitacora.Name = "NB_Bitacora"
         Me.NB_Bitacora.SmallImage = CType(resources.GetObject("NB_Bitacora.SmallImage"), System.Drawing.Image)
+        '
+        'NB_Reporte
+        '
+        Me.NB_Reporte.Caption = "Reporte"
+        Me.NB_Reporte.Name = "NB_Reporte"
+        Me.NB_Reporte.SmallImage = CType(resources.GetObject("NB_Reporte.SmallImage"), System.Drawing.Image)
         '
         'NB_Inicio
         '
@@ -78,12 +84,6 @@ Partial Class formulario
         Me.StatusStrip1.Size = New System.Drawing.Size(478, 22)
         Me.StatusStrip1.TabIndex = 3
         Me.StatusStrip1.Text = "StatusStrip1"
-        '
-        'NB_Reporte
-        '
-        Me.NB_Reporte.Caption = "Reporte"
-        Me.NB_Reporte.Name = "NB_Reporte"
-        Me.NB_Reporte.SmallImage = CType(resources.GetObject("NB_Reporte.SmallImage"), System.Drawing.Image)
         '
         'formulario
         '
