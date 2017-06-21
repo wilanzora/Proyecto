@@ -1,16 +1,19 @@
-﻿Public Class formulario 
+﻿
+Imports DevExpress.XtraReports.UI
+Public Class formulario
 
     Private Sub NB_Bitacora_LinkClicked(sender As Object, e As DevExpress.XtraNavBar.NavBarLinkEventArgs) Handles NB_Bitacora.LinkClicked
-        Dim vista As New Vistas
-        vista.MdiParent = Me
-        vista.Show()
+        Dim f As New Vistas
+        f.MdiParent = Me
+        f.Show()
 
     End Sub
 
     Private Sub NB_Reporte_LinkClicked(sender As Object, e As DevExpress.XtraNavBar.NavBarLinkEventArgs) Handles NB_Reporte.LinkClicked
-        'Dim f As New XtraReport1
-        'f.MdiParent = Me
-        'f.ShowPrintStatusDialog
+        Dim f As New XtraReport1
+        Dim print As New ReportPrintTool(f)
+        f.ShowRibbonPreviewDialog()
+        
 
 
     End Sub

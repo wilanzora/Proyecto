@@ -19,54 +19,126 @@ Partial Class Vistas
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.TextEdit1 = New DevExpress.XtraEditors.TextEdit()
-        Me.ButtonEdit1 = New DevExpress.XtraEditors.ButtonEdit()
-        Me.CheckEdit1 = New DevExpress.XtraEditors.CheckEdit()
-        CType(Me.TextEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ButtonEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.CheckEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Vistas))
+        Me.XtraTabControl1 = New DevExpress.XtraTab.XtraTabControl()
+        Me.XtraTabPage2 = New DevExpress.XtraTab.XtraTabPage()
+        Me.RibbonControl1 = New DevExpress.XtraBars.Ribbon.RibbonControl()
+        Me.RibbonPage1 = New DevExpress.XtraBars.Ribbon.RibbonPage()
+        Me.RibbonPageGroup1 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
+        Me.XtraTabControl2 = New DevExpress.XtraTab.XtraTabControl()
+        Me.XtraTabPage3 = New DevExpress.XtraTab.XtraTabPage()
+        Me.PanelControl1 = New DevExpress.XtraEditors.PanelControl()
+        Me.Btn_Guardar = New DevExpress.XtraBars.BarButtonItem()
+        CType(Me.XtraTabControl1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.XtraTabControl1.SuspendLayout()
+        CType(Me.RibbonControl1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.XtraTabControl2, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.XtraTabControl2.SuspendLayout()
+        Me.XtraTabPage3.SuspendLayout()
+        CType(Me.PanelControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'TextEdit1
+        'XtraTabControl1
         '
-        Me.TextEdit1.Location = New System.Drawing.Point(13, 26)
-        Me.TextEdit1.Name = "TextEdit1"
-        Me.TextEdit1.Size = New System.Drawing.Size(100, 20)
-        Me.TextEdit1.TabIndex = 0
+        Me.XtraTabControl1.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.XtraTabControl1.Location = New System.Drawing.Point(0, 369)
+        Me.XtraTabControl1.Name = "XtraTabControl1"
+        Me.XtraTabControl1.SelectedTabPage = Me.XtraTabPage2
+        Me.XtraTabControl1.Size = New System.Drawing.Size(1231, 325)
+        Me.XtraTabControl1.TabIndex = 3
+        Me.XtraTabControl1.TabPages.AddRange(New DevExpress.XtraTab.XtraTabPage() {Me.XtraTabPage2})
         '
-        'ButtonEdit1
+        'XtraTabPage2
         '
-        Me.ButtonEdit1.Location = New System.Drawing.Point(146, 29)
-        Me.ButtonEdit1.Name = "ButtonEdit1"
-        Me.ButtonEdit1.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton()})
-        Me.ButtonEdit1.Size = New System.Drawing.Size(100, 20)
-        Me.ButtonEdit1.TabIndex = 1
+        Me.XtraTabPage2.Name = "XtraTabPage2"
+        Me.XtraTabPage2.Size = New System.Drawing.Size(1225, 297)
+        Me.XtraTabPage2.Text = "XtraTabPage2"
         '
-        'CheckEdit1
+        'RibbonControl1
         '
-        Me.CheckEdit1.Location = New System.Drawing.Point(37, 94)
-        Me.CheckEdit1.Name = "CheckEdit1"
-        Me.CheckEdit1.Properties.Caption = "CheckEdit1"
-        Me.CheckEdit1.Size = New System.Drawing.Size(75, 19)
-        Me.CheckEdit1.TabIndex = 2
+        Me.RibbonControl1.ExpandCollapseItem.Id = 0
+        Me.RibbonControl1.Items.AddRange(New DevExpress.XtraBars.BarItem() {Me.RibbonControl1.ExpandCollapseItem, Me.Btn_Guardar})
+        Me.RibbonControl1.Location = New System.Drawing.Point(0, 0)
+        Me.RibbonControl1.MaxItemId = 2
+        Me.RibbonControl1.Name = "RibbonControl1"
+        Me.RibbonControl1.Pages.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPage() {Me.RibbonPage1})
+        Me.RibbonControl1.Size = New System.Drawing.Size(1231, 142)
+        '
+        'RibbonPage1
+        '
+        Me.RibbonPage1.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.RibbonPageGroup1})
+        Me.RibbonPage1.Name = "RibbonPage1"
+        Me.RibbonPage1.Text = "RibbonPage1"
+        '
+        'RibbonPageGroup1
+        '
+        Me.RibbonPageGroup1.Name = "RibbonPageGroup1"
+        Me.RibbonPageGroup1.Text = "RibbonPageGroup1"
+        '
+        'XtraTabControl2
+        '
+        Me.XtraTabControl2.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.XtraTabControl2.Location = New System.Drawing.Point(0, 142)
+        Me.XtraTabControl2.Name = "XtraTabControl2"
+        Me.XtraTabControl2.SelectedTabPage = Me.XtraTabPage3
+        Me.XtraTabControl2.Size = New System.Drawing.Size(1231, 227)
+        Me.XtraTabControl2.TabIndex = 5
+        Me.XtraTabControl2.TabPages.AddRange(New DevExpress.XtraTab.XtraTabPage() {Me.XtraTabPage3})
+        '
+        'XtraTabPage3
+        '
+        Me.XtraTabPage3.Controls.Add(Me.PanelControl1)
+        Me.XtraTabPage3.Name = "XtraTabPage3"
+        Me.XtraTabPage3.Size = New System.Drawing.Size(1225, 199)
+        Me.XtraTabPage3.Text = "XtraTabPage3"
+        '
+        'PanelControl1
+        '
+        Me.PanelControl1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.PanelControl1.Location = New System.Drawing.Point(0, 0)
+        Me.PanelControl1.Name = "PanelControl1"
+        Me.PanelControl1.Size = New System.Drawing.Size(1225, 199)
+        Me.PanelControl1.TabIndex = 0
+        '
+        'Btn_Guardar
+        '
+        Me.Btn_Guardar.Caption = "Guardar"
+        Me.Btn_Guardar.CategoryGuid = New System.Guid("6ffddb2b-9015-4d97-a4c1-91613e0ef537")
+        Me.Btn_Guardar.Glyph = CType(resources.GetObject("Btn_Guardar.Glyph"), System.Drawing.Image)
+        Me.Btn_Guardar.Id = 1
+        Me.Btn_Guardar.LargeGlyph = CType(resources.GetObject("Btn_Guardar.LargeGlyph"), System.Drawing.Image)
+        Me.Btn_Guardar.Name = "Btn_Guardar"
         '
         'Vistas
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(284, 262)
-        Me.Controls.Add(Me.CheckEdit1)
-        Me.Controls.Add(Me.ButtonEdit1)
-        Me.Controls.Add(Me.TextEdit1)
+        Me.ClientSize = New System.Drawing.Size(1231, 694)
+        Me.Controls.Add(Me.XtraTabControl2)
+        Me.Controls.Add(Me.RibbonControl1)
+        Me.Controls.Add(Me.XtraTabControl1)
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "Vistas"
         Me.Text = "Vistas"
-        CType(Me.TextEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ButtonEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.CheckEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.XtraTabControl1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.XtraTabControl1.ResumeLayout(False)
+        CType(Me.RibbonControl1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.XtraTabControl2, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.XtraTabControl2.ResumeLayout(False)
+        Me.XtraTabPage3.ResumeLayout(False)
+        CType(Me.PanelControl1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
-    Friend WithEvents TextEdit1 As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents ButtonEdit1 As DevExpress.XtraEditors.ButtonEdit
-    Friend WithEvents CheckEdit1 As DevExpress.XtraEditors.CheckEdit
+    Friend WithEvents XtraTabControl1 As DevExpress.XtraTab.XtraTabControl
+    Friend WithEvents XtraTabPage2 As DevExpress.XtraTab.XtraTabPage
+    Friend WithEvents RibbonControl1 As DevExpress.XtraBars.Ribbon.RibbonControl
+    Friend WithEvents Btn_Guardar As DevExpress.XtraBars.BarButtonItem
+    Friend WithEvents RibbonPage1 As DevExpress.XtraBars.Ribbon.RibbonPage
+    Friend WithEvents RibbonPageGroup1 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
+    Friend WithEvents XtraTabControl2 As DevExpress.XtraTab.XtraTabControl
+    Friend WithEvents XtraTabPage3 As DevExpress.XtraTab.XtraTabPage
+    Friend WithEvents PanelControl1 As DevExpress.XtraEditors.PanelControl
 End Class

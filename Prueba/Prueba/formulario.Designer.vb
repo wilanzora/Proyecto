@@ -42,9 +42,9 @@ Partial Class formulario
         Me.NavBarControl1.Items.AddRange(New DevExpress.XtraNavBar.NavBarItem() {Me.NB_Inicio, Me.NB_Bitacora, Me.NB_Reporte})
         Me.NavBarControl1.Location = New System.Drawing.Point(0, 0)
         Me.NavBarControl1.Name = "NavBarControl1"
-        Me.NavBarControl1.OptionsNavPane.ExpandedWidth = 140
+        Me.NavBarControl1.OptionsNavPane.ExpandedWidth = 125
         Me.NavBarControl1.PaintStyleKind = DevExpress.XtraNavBar.NavBarViewKind.NavigationPane
-        Me.NavBarControl1.Size = New System.Drawing.Size(140, 334)
+        Me.NavBarControl1.Size = New System.Drawing.Size(125, 694)
         Me.NavBarControl1.TabIndex = 1
         Me.NavBarControl1.Text = "NavBarControl1"
         '
@@ -79,9 +79,9 @@ Partial Class formulario
         '
         'StatusStrip1
         '
-        Me.StatusStrip1.Location = New System.Drawing.Point(140, 312)
+        Me.StatusStrip1.Location = New System.Drawing.Point(125, 672)
         Me.StatusStrip1.Name = "StatusStrip1"
-        Me.StatusStrip1.Size = New System.Drawing.Size(478, 22)
+        Me.StatusStrip1.Size = New System.Drawing.Size(1106, 22)
         Me.StatusStrip1.TabIndex = 3
         Me.StatusStrip1.Text = "StatusStrip1"
         '
@@ -89,12 +89,13 @@ Partial Class formulario
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(618, 334)
+        Me.ClientSize = New System.Drawing.Size(1231, 694)
         Me.Controls.Add(Me.StatusStrip1)
         Me.Controls.Add(Me.NavBarControl1)
         Me.IsMdiContainer = True
         Me.Name = "formulario"
         Me.Text = "formulario"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         CType(Me.NavBarControl1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.XtraTabbedMdiManager1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
